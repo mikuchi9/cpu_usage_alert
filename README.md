@@ -5,7 +5,7 @@ If an executable exceeds the specified CPU usage limit, it will alert the user w
 1. Install the necessary `libpulse-dev` package:
 * On Ubuntu/Debian:
       ```sudo apt-get update
-      sudo apt-get install libpulse-dev```
+        sudo apt-get install libpulse-dev```
 * On CentOS/Red Hat:
       ```sudo yum install epel-release
       sudo yum install pulseaudio-libs-devel```
