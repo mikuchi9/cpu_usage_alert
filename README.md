@@ -4,10 +4,10 @@ If an executable exceeds the specified CPU usage limit, it will alert the user w
 ## Installation
 1. Install the necessary `libpulse-dev` package:
 * On Ubuntu/Debian:<br />
-      ```sudo apt-get update <br />
+      ```sudo apt-get update;
         sudo apt-get install libpulse-dev```
 * On CentOS/Red Hat:<br />
-      ```sudo yum install epel-release <br />
+      ```sudo yum install epel-release;
         sudo yum install pulseaudio-libs-devel```
 
 2. Place both `cpu_usage_alert.c` and `play_sound.c` in the same directory, and then compile them
