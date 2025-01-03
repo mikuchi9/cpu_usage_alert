@@ -16,11 +16,11 @@ If an executable exceeds the specified CPU usage limit, it will alert the user w
     ``gcc cpu_usage_alert.c play_sound.c -o cpu_usage_alert `pkg-config --cflags --libs libpulse-simple` -lm``
 
 ## Usage
-After successful compilation, you will get the cpu_usage_alert binary.
+After successful compilation, you will get the `cpu_usage_alert` binary.
 Place it in your $PATH or run it directly from the directory.
 
 Run the program as follows:
 
-`cpu_usage_alert` <sub>pid_of_executable</sub> <sub>cpu_limit_in_decimal</sub> <sub>polling_frequency_in_seconds</sub>
+`cpu_usage_alert` <sub>**pid_of_executable**</sub> <sub>**cpu_limit_in_decimal**</sub> <sub>**polling_frequency_in_seconds**</sub>
 
 When the executable equals or exceeds the specified CPU usage limit, the program will produce a short sound and display the current usage percentage in the console.
