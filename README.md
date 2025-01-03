@@ -21,6 +21,6 @@ Place it in your $PATH or run it directly from the directory.
 
 Run the program as follows:
 
-`cpu_usage_alert`  pid_of_executable  cpu_limit_in_decimal  polling_frequency_in_seconds
+`cpu_usage_alert` &nbsp;pid_of_executable &nbsp;cpu_limit_in_decimal &nbsp;polling_frequency_in_seconds
 
 When the executable equals or exceeds the specified CPU usage limit, the program will produce a short sound and display the current usage percentage in the console.
